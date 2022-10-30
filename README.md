@@ -11,18 +11,17 @@
 Также рассматривал реализацию на основе модели 'distilbert-base-uncased', которая показала результаты получше, чем обычный 'bert'.
 
 ##### distilBert
-![](../../../../../../var/folders/v0/lv_1493143qdlnzyzr_fyl_w0000gn/T/TemporaryItems/NSIRD_screencaptureui_yOVqiV/Screenshot 2022-10-31 at 1.10.46 AM.png)
-![](../../../../../../var/folders/v0/lv_1493143qdlnzyzr_fyl_w0000gn/T/TemporaryItems/NSIRD_screencaptureui_PSwqzM/Screenshot 2022-10-31 at 1.11.13 AM.png)
+![](img/distil_bert_1.png)
+![](img/distil_bert_2.png)
 
 ##### Bert
-![](../../../../../../var/folders/v0/lv_1493143qdlnzyzr_fyl_w0000gn/T/TemporaryItems/NSIRD_screencaptureui_TNQVvM/Screenshot 2022-10-31 at 1.12.18 AM.png)
-![](../../../../../../var/folders/v0/lv_1493143qdlnzyzr_fyl_w0000gn/T/TemporaryItems/NSIRD_screencaptureui_2WCluv/Screenshot 2022-10-31 at 1.12.25 AM.png)
-
-
+![](img/bert_1.png)
+![](img/bert_2.png)
 ### Выводы-полувыводы 
 
 На мой взгляд требования, приписанные к каждому классу в статье, довольно жесткие, к ним либо можно добавить какие-либо условия, либо ослабить. 
 
-Я также не успел поиграть с параметрами -- batch_size, n_epochs, и выявить для них закономерсти, также не все метрики проверил.
+Я также не успел поиграть с параметрами -- batch_size, n_epochs, и выявить для них закономерности, также не все метрики проверил. 
+
 
 Однако все эти нюансы в той или иной степени были также указаны в статье. 
